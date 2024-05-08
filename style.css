@@ -157,3 +157,87 @@ section.projects{
     75% { border-top: 8px solid darkorange; }
     100% { border-left: 8px solid darkorange; }
 }
+section.experience {
+    height: 740px;
+    background-color: rgb(43, 40, 40);
+    border-bottom: 5px solid darkorange;
+}
+
+.experience .heading {
+    color: aliceblue;
+}
+
+.all-experience {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+}
+
+.all-experience .img-grid img {
+    border: 8px solid grey;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.all-experience .img-grid img:hover{
+    border: 8px solid darkorange;
+    
+}
+.all-experience p{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.all-experience .img-grid img:hover{
+    transform: translateY(10px);
+    transition: ease-in;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+
+}
+section.about-me{
+    height: 600px;
+}
+.left-image{
+    height: 0;
+
+}
+.left-image img{
+    width: 29%;
+    height: 450px;
+    margin-top: 5%;
+    margin-right: 800px;
+
+}
+.right-text {
+    margin-left: 40%; /* This sets the left margin of the element to 40% of its containing block */
+    text-align: center; /* This centers the text horizontally within the element */
+    margin-top: 10%;
+    line-height: 49px; 
+    font-size: 20px;
+}
+.right-text button{
+    font-size: 25px;
+    font-family: cursive;
+    margin: 20px 0;
+    background-color: darkorange;
+    border: grey;
+}
+.right-text button a{
+    color: black;
+    text-decoration: none;
+}
+.right-text button a:hover{
+    background-color: black;
+    color: darkorange;
+    transition: all 0.3s ease-in;
+} 
+.social-icons{
+    left: 0;
+    width: 50px;
+    margin-top: 20%;
+    margin-right: 130px;
+    z-index: 1;
+}
